@@ -470,7 +470,7 @@ a:hover {
   letter-spacing: -5px;
   font-weight: 700;
   text-align: center;
-  background-color: #ffa726;
+  background-color: #b10001;
   border: 0;
   -webkit-box-shadow: inset 0 1px 2px -1px #2c3e50;
   box-shadow: inset 0 1px 2px -1px #2c3e50
@@ -482,7 +482,7 @@ a:hover {
   bottom: -29px;
   left: 0;
   z-index: 250;
-  border-top: 30px solid #ffa726;
+  border-top: 30px solid #b10001;
   border-left: 40px solid transparent;
   border-right: 40px solid transparent
 }
@@ -1284,7 +1284,7 @@ a:hover {
   top: -30px;
   left: 50%;
   margin-left: -40px;
-  border-bottom: 40px solid #ffa726;
+  border-bottom: 40px solid #b10001;
   border-left: 40px solid transparent;
   border-right: 40px solid transparent
 }
