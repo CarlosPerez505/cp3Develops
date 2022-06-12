@@ -53,7 +53,8 @@ html, body {
 }
 
 body {
-  background: #3b059e url(../images/bg-pattern.jpg)
+  background: linear-gradient(#0a0a0a, #3b059e, #0a0a0a);
+
 }
 
 .container {
@@ -721,13 +722,13 @@ a:hover {
 }
 
 .services__item:hover:before {
-  color: #ffa726
+  color: #e8f807
 }
 
 .advantages {
   text-align: center;
-  border-left: 10px solid #ffa726;
-  border-right: 10px solid #ffa726;
+  border-left: 10px solid #e8f807;
+  border-right: 10px solid #e8f807;
   float: left;
   width: 98%;
   width: calc(100% - 40px);
@@ -753,7 +754,7 @@ a:hover {
   display: block;
   width: 30%;
   height: 10px;
-  background-color: #ffa726
+  background-color: #e8f807
 }
 
 .advantages h2:before {
@@ -766,7 +767,7 @@ a:hover {
 
 .advantages blockquote {
   padding: 40px 0;
-  border-bottom: 10px solid #ffa726
+  border-bottom: 10px solid #e8f807
 }
 
 .advantages blockquote p, .advantages blockquote cite {
@@ -1275,7 +1276,7 @@ a:hover {
   z-index: 100;
   width: 100%;
   background: linear-gradient(50deg,#b20000,#0a0a0a);
-  color: #ecf0f1;
+  color: #ffffff;
   -webkit-box-shadow: 0 -2px 2px -1px #2c3e50;
   box-shadow: 0 -2px 2px -1px #2c3e50
 }
@@ -1286,7 +1287,7 @@ a:hover {
   top: -30px;
   left: 50%;
   margin-left: -40px;
-  border-bottom: 40px solid #ffa726;
+  border-bottom: 40px solid #b10001;
   border-left: 40px solid transparent;
   border-right: 40px solid transparent
 }
@@ -1343,7 +1344,7 @@ a:hover {
   display: block;
   font-size: 60px;
   line-height: 40px;
-  color: #ecf0f1;
+  color: #ffffff;
   -webkit-transition: color .5s;
   -o-transition: color .5s;
   transition: color .5s
@@ -1563,9 +1564,7 @@ a:hover {
   }
 
   .contact-card {
-    position: relative;
     float: left;
-    display: flex;
     width: 98%;
     width: calc(100% - 40px);
     margin-left: 1%;
@@ -1576,31 +1575,7 @@ a:hover {
     margin-top: 0;
     margin-bottom: 0;
     float: none
-    border-radius: 6px;
-    color: : rgb(88, 199, 250, 0%);
-    cursor: pointer;
   }
-
-  @property --rotate {
-    syntax: "<angel>";
-    initial-value: 132deg;
-    inherits: false;
-  }
-
-  :root {
-    --card-height: 65vh;
-    --card-width:: calc(var(var(--card-height)));
-  }
-
-  @keyframes spin {
-    0% {
-      --rotate: 0deg;
-    }
-    100%  {
-      --rotate: 360deg;
-    }
-  }
-
 
   .contact-info__logo {
     display: none
