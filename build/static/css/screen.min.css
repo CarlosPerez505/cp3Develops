@@ -1563,7 +1563,9 @@ a:hover {
   }
 
   .contact-card {
+    position: relative;
     float: left;
+    display: flex;
     width: 98%;
     width: calc(100% - 40px);
     margin-left: 1%;
@@ -1574,7 +1576,31 @@ a:hover {
     margin-top: 0;
     margin-bottom: 0;
     float: none
+    border-radius: 6px;
+    color: : rgb(88, 199, 250, 0%);
+    cursor: pointer;
   }
+
+  @property --rotate {
+    syntax: "<angel>";
+    initial-value: 132deg;
+    inherits: false;
+  }
+
+  :root {
+    --card-height: 65vh;
+    --card-width:: calc(var(var(--card-height)));
+  }
+
+  @keyframes spin {
+    0% {
+      --rotate: 0deg;
+    }
+    100%  {
+      --rotate: 360deg;
+    }
+  }
+
 
   .contact-info__logo {
     display: none
@@ -1595,6 +1621,8 @@ a:hover {
 
 @media screen and (max-width: 600px) {
   .first-nav__languages, .first-nav__links {
+
+
     float: left;
     width: 89.66667%;
     width: calc(91.66667% - 40px);
@@ -1604,7 +1632,7 @@ a:hover {
     margin-right: calc(20px);
     height: auto;
     margin-top: 0;
-    margin-bottom: 0
+    margin-bottom: 0;
   }
 
   .first-nav__navcontrol {
