@@ -852,11 +852,12 @@ a:hover {
 }
 
 .process__step:hover > .process__step-icon, .process__step:hover > .process__step-icon.is-active {
-  border-color: #ffa726
+  border-color: #b10001
 }
 
 .process__step:hover > .process__step-icon:before, .process__step:hover > .process__step-icon.is-active:before {
-  text-shadow: -1px -1px 0 #ffa726, 0 -1px 0 #ffa726, 1px -1px 0 #ffa726, 1px 0 0 #ffa726, 1px 1px 0 #ffa726, 0 1px 0 #ffa726, -1px 1px 0 #ffa726, -1px 0 0 #ffa726
+  text-shadow: -1px -1px 0 #ffa726, 0 -1px 0 #ffa726, 1px -1px 0 #ffa726, 1px 0 0 #ffa726, 1px 1px 0 #ffa726,
+  0 1px 0 #ffa726, -1px 1px 0 #ffa726, -1px 0 0 #ffa726
 }
 
 .process__step:hover + .process__step-info {
@@ -914,11 +915,12 @@ a:hover {
 }
 
 .process__step-icon.is-active {
-  border-color: #ffa726
+  border-color: #b10001
 }
 
 .process__step-icon.is-active:before {
-  text-shadow: -1px -1px 0 #ffa726, 0 -1px 0 #ffa726, 1px -1px 0 #ffa726, 1px 0 0 #ffa726, 1px 1px 0 #ffa726, 0 1px 0 #ffa726, -1px 1px 0 #ffa726, -1px 0 0 #ffa726
+  text-shadow: -1px -1px 0 #ffa726, 0 -1px 0 #ffa726, 1px -1px 0 #ffa726, 1px 0 0 #ffa726, 1px 1px 0 #ffa726,
+  0 1px 0 #ffa726, -1px 1px 0 #ffa726, -1px 0 0 #ffa726
 }
 
 .process__step-info {
@@ -931,7 +933,7 @@ a:hover {
   margin: 40px 0 50px;
   padding: 10px;
   background-color: #910000;
-  border-top: 10px solid #ffa726;
+  border-top: 10px solid #b10001;
   -webkit-box-shadow: 2px 2px 4px -2px #2c3e50;
   box-shadow: 2px 2px 4px -2px #2c3e50
 }
@@ -950,7 +952,7 @@ a:hover {
   top: -40px;
   left: 12.5%;
   margin-left: -40px;
-  border-bottom: 40px solid #ffa726;
+  border-bottom: 40px solid #b10001;
   border-left: 40px solid transparent;
   border-right: 40px solid transparent
 }
@@ -1284,7 +1286,7 @@ a:hover {
   top: -30px;
   left: 50%;
   margin-left: -40px;
-  border-bottom: 40px solid #b10001;
+  border-bottom: 40px solid #ffa726;
   border-left: 40px solid transparent;
   border-right: 40px solid transparent
 }
