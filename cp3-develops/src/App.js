@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Cbr from './../public/cbr.jpeg';
 
 function App() {
   return (
