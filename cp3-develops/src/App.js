@@ -1,6 +1,6 @@
 import './App.css';
 import Cbr from './cbr.jpeg';
-import Redpalm from './r'
+import Redpalm from './r
 
 function App() {
   return (
