@@ -1,19 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 import Cbr from './cbr.jpeg';
-import {Container, Card, Row, Col, Image, Carousel, } from "react";
+import Redpalm from './'
 
 function App() {
   return (
-
     <div className="App">
       <header className="App-header">
         <img src={Cbr} className="App-cbr" alt="cbr" />
-          <Container>
+          <div>
+              <p>
+                  hey hey
+              </p>
+          </div>
               <p>
                   Happy Birthday
               </p>
-          </Container>
         <p>
           Good morning React
         </p>
