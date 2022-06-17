@@ -587,7 +587,7 @@ a:hover {
   min-width: 100%;
   min-height: 100%;
   z-index: 0;
-  background: url(../images/cbr.jpeg) center 0 no-repeat;
+  background: url(../../../cp3-develops/public/cbr.jpeg) center 0 no-repeat;
   background-attachment: fixed;
   background-size: cover
 }
