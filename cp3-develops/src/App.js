@@ -7,7 +7,7 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <img src={Linkdin} className="App-link"/>
+
                 <img src={Cbr} className="App-cbr"/>
                 <div>
                     <p>
@@ -28,6 +28,7 @@ function App() {
                 >
                     Learn React
                 </a>
+                <img src={Linkdin} className="App-link"/>
             </header>
         </div>
     );
