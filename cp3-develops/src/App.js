@@ -1,14 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
-import Cbr from './../public/cbr.jpeg';
+import Cbr from './cbr.jpeg';
+import {Container, Card, Row, Col, Image, Carousel, } from "react";
 
 function App() {
   return (
+
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={Cbr} className="App-cbr" alt="cbr" />
+          <Container>
+              <p>
+                  Happy Birthday
+              </p>
+          </Container>
         <p>
-          Good morning React <code>src/App.js</code> and save to reload.
+          Good morning React
         </p>
         <a
           className="App-link"
