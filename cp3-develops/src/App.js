@@ -1,7 +1,7 @@
 import './App.css';
 import Cbr from './cbr.jpeg';
 import Github from './github.png';
-import Linkdin from './linkdin-icon-logo.png'
+import Linkdin from './linkdin-icon-logo.png';
 
 function App() {
     return (
