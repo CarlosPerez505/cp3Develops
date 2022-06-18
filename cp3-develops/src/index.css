@@ -587,7 +587,7 @@ a:hover {
   min-width: 100%;
   min-height: 100%;
   z-index: 0;
-  background: url(../../dev/images/cbr.jpeg) center 0 no-repeat;
+  background: url(github.png) center 0 no-repeat;
   background-attachment: fixed;
   background-size: cover
 }
