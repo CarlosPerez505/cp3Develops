@@ -601,7 +601,7 @@ a:hover {
   background-color: rgba(44, 62, 80, .3);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000, endColorstr=#4C000000);
   zoom: 1;
-  background-image: url(../../dev/images/cbr.jpeg);
+  background-image: url(github.png);
   background-repeat: repeat;
   background-attachment: fixed
 }
