@@ -1,5 +1,12 @@
 import './App.css';
-import Cbr from './cbr.jpeg'
+import Cbr from './cbr.jpeg';
+import Github from 'github.png';
+
+
+
+
+
+
 function App() {
   return (
     <div className="App">
@@ -33,6 +40,7 @@ function App() {
         >
           Learn React
         </a>
+          <img src={Github} className="App-github"/>
       </header>
     </div>
   );
