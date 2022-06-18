@@ -1,6 +1,6 @@
 
 import './App.css';
-
+import Sunset from './sunset.jpg'
 import Github from './github.png';
 import Linkdin from './linkdin-icon-logo.png';
 
@@ -8,6 +8,7 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
+                <img src={Sunset} className="App-link" alt=""/>
                 <img src={Linkdin} className="App-link" alt=""/>
 
                 <div>
@@ -31,6 +32,11 @@ function App() {
                     Learn React
                 </a>
             </header>
+            <body>
+            <p>
+                hello
+            </p>
+            </body>
         </div>
     );
 }
