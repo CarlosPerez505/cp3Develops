@@ -1,5 +1,5 @@
 import './App.css';
-import Cbr from '../../dev/images/cbr.jpeg';
+import Cbr from './cbr.jpeg';
 import Github from './github.png';
 
 
@@ -31,8 +31,8 @@ function App() {
                   </nav>
               </div>
           </div>
-    <img src={Cbr} className="App-cbr"/>
-          <img src={Github} className="App-github"/>
+    <img src={Cbr} className="App-cbr" alt="bike"/>
+          <img src={Github} className="App-github" alt="github"/>
       </header>
     </div>
   );
