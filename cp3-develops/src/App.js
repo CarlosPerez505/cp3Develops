@@ -1,11 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import Cbr from './cb'
+import Cbr from './cbr.jpeg'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
           <div className="first-nav">
               <div className="container">
                   <nav className="first-nav__links">
@@ -26,9 +24,7 @@ function App() {
                   </nav>
               </div>
           </div>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <img src={Cbr} className="App-cbr"/>
         <a
           className="App-link"
           href="https://reactjs.org"
