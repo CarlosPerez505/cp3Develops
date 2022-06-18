@@ -20,6 +20,7 @@ function App() {
                 <p>
                     Good morning React
                 </p>
+                <img src={Github} className="-github"/>
                 <a
                     className="App-link"
                     href="https://reactjs.org"
@@ -29,6 +30,7 @@ function App() {
                     Learn React
                 </a>
                 <img src={Linkdin} className="App-link"/>
+                <img src={Github} className="-github"/>
             </header>
         </div>
     );
