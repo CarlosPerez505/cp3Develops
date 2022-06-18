@@ -1,6 +1,6 @@
 import './App.css';
 import Cbr from './cbr.jpeg';
-import Github from 'github.png';
+import Github from './github.png';
 
 
 
@@ -32,14 +32,6 @@ function App() {
               </div>
           </div>
     <img src={Cbr} className="App-cbr"/>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
           <img src={Github} className="App-github"/>
       </header>
     </div>
