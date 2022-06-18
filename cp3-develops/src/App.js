@@ -1,5 +1,5 @@
 import './App.css';
-import Cbr from './cbr.jpeg';
+import Cbr from '../../dev/images/cbr.jpeg';
 import Github from './github.png';
 
 

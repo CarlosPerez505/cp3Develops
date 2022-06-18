@@ -587,7 +587,7 @@ a:hover {
   min-width: 100%;
   min-height: 100%;
   z-index: 0;
-  background: url(../../../cp3-develops/src/cbr.jpeg) center 0 no-repeat;
+  background: url(../../../dev/images/cbr.jpeg) center 0 no-repeat;
   background-attachment: fixed;
   background-size: cover
 }
@@ -601,7 +601,7 @@ a:hover {
   background-color: rgba(44, 62, 80, .3);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000, endColorstr=#4C000000);
   zoom: 1;
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC);
+  background-image: url(data:image/);
   background-repeat: repeat;
   background-attachment: fixed
 }
