@@ -14,7 +14,9 @@
 }
 
 .App-header {
-  background-color: #07ef0c;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +38,6 @@
   }
 }
 
+.p{
+  margin-bottom: 0px;
+}

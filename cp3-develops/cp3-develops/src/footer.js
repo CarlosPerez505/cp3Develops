@@ -1,10 +1,12 @@
 const Footer = () => {
     return (
+        <div>
         <footer style={{color: "darkred"}}>
-            <h1>
+            <h1 style={{backgroundColor: "black"}
+            }>
                 created 2022 cp3Develops
                 <>
-                    <div>
+                    <div style={{color: "black"}}>
                         <a href={'https://www.cp3develops.com/'}>Carlos</a><br/>
 
                     </div>
@@ -23,6 +25,7 @@ const Footer = () => {
             </h1>
 
         </footer>
+            </div>
     )
 
 }

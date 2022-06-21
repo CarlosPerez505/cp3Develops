@@ -3,11 +3,11 @@
 
 const Home = () => {
     return (
-    <home style={{color: "blue"}}>
-       <h1 style={{color: "red"}}>
+    <home s>
+       <h1 style={{color: "black"}}>
            Welcome To red palm
        </h1>
-        <p style={{color: "red"}}>
+        <p style={{color: "black"}}>
             A community where family, friends, and curious web sleuths can come together to share
             their stories.
             Most importantly its a place where new clues can be shared, theories can be examined, and

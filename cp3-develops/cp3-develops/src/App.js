@@ -11,7 +11,7 @@ function App() {
         <NavBar/>
         <img src={Redpalm} className="App-logo" alt="logo" />
         <Home/>
-        <Footer/>
+        <Footer style={{backgroundColor: "black" }}/>
     </div>
   );
 }
