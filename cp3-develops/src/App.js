@@ -1,17 +1,11 @@
 
 import './App.css';
+import Home from '../cp3-develops/src/home.js'
 
 function App() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <p>
 
-                </p>
-
-
-            </header>
-        </div>
+            <Home/>
     );
 }
 
