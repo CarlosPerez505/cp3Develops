@@ -3,11 +3,11 @@
 
 const Home = () => {
     return (
-    <home s>
+    <home style={{backgroundColor: "black"}}>
        <h1 style={{color: "black"}}>
            Welcome To red palm
        </h1>
-        <p style={{color: "black"}}>
+        <p style={{color: "white"}}>
             A community where family, friends, and curious web sleuths can come together to share
             their stories.
             Most importantly its a place where new clues can be shared, theories can be examined, and
@@ -34,6 +34,10 @@ const Home = () => {
             examine it, and you just might find something someone missed. Good luck and thank you
             for your interest.
         </p>
+        <section>
+            dfjbsdijodsc
+        </section>
+
     </home>
     )
 
