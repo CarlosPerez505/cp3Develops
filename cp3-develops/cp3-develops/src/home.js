@@ -1,6 +1,5 @@
 
 
-
 const Home = () => {
     return (
     <home style={{backgroundColor: "black"}}>
@@ -34,9 +33,6 @@ const Home = () => {
             examine it, and you just might find something someone missed. Good luck and thank you
             for your interest.
         </p>
-        <section>
-            dfjbsdijodsc
-        </section>
 
     </home>
     )

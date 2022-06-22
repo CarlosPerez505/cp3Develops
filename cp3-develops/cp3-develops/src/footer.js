@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <div>
-        <footer style={{color: "darkred"}}>
+        <footer style={{color: "darkred" }}>
             <h1 style={{backgroundColor: "black"}
             }>
                 created 2022 cp3Develops
@@ -25,7 +25,7 @@ const Footer = () => {
             </h1>
 
         </footer>
-            </div>
+            </div >
     )
 
 }
