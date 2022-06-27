@@ -3,7 +3,7 @@ import './App.css';
 import Home from "./home";
 import NavBar from "./navBar";
 import Footer from "./footer";
-
+import Graph from "./components/graph"
 import Eagle from "./components/eagle";
 import EagleAvatar from "./components/eagle";
 
@@ -14,6 +14,7 @@ function App() {
 
         <>
             <NavBar/>
+
             <img src={Redpalm} className="App-logo" alt="logo" />
             <Home/>
             <EagleAvatar/>

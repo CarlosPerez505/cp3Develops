@@ -15,6 +15,9 @@
   pointer-events: none;
 }
 
+.App-graph {
+}
+
 .App-header {
   color: #0a0a0a;
   margin-top: 500px;
@@ -45,7 +48,8 @@
 }
 
 footer{
-  padding: 1rem;
+
+  padding: 2rem;
   align-content: center;
   background-color: red;
 }
@@ -64,4 +68,9 @@ h1 {
 
 home {
   background-color: black;
+}
+
+a{
+  display: inline-grid;
+  padding: 1rem;
 }
