@@ -1,6 +1,6 @@
 const ChatButton =() => {
     return (
-        <button style={{backgroundColor: "red"}}>
+        <button>
             Chat
         </button>
     )
