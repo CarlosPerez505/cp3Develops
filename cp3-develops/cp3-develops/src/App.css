@@ -1,5 +1,5 @@
 .App {
-  background-image: url("./mad.jpg");
+  background-image: url("alienThrone.jpeg");
   background-size: cover;
   color: #0a0a0a;
   text-align: center;
@@ -15,19 +15,47 @@
   pointer-events: none;
 }
 
-.App-graph {
+.Graph {
+  height: 50vmin;
+
 }
 
-.App-header {
-  color: #0a0a0a;
-  margin-top: 500px;
-  margin-bottom: 500px;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.App-graph-p{
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  display: grid;
+  color: red;
+  background-color: black;
+
+}
+
+.App-graph-a {
+
+}
+
+
+
+.App-nav {
+  background-color: darkred;
+  align-content: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.App-ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.App-ul-a {
+  display:;
+  justify-content: center;
+
+
 }
 
 .App-link {
@@ -43,34 +71,55 @@
   }
 }
 
-.p{
-  margin-bottom: 150px;
+.App-gabby {
+  background-color: black;
+  align-text: center;
+  display: inline-grid;
+  height: 50vmin;
 }
 
-footer{
 
-  padding: 2rem;
-  align-content: center;
-  background-color: red;
-}
+
 
 a {
   margin: 2rem;
 }
 
-nav {
-  background-color: red;
-}
 
 h1 {
-  margin: 2rem;
+  color: #f50707;
+  background-color: grey;
 }
 
-home {
-  background-color: black;
-}
+
 
 a{
   display: inline-grid;
   padding: 1rem;
+}
+
+
+.App-mel {
+  height: 75vmin;
+}
+
+.App-welcome {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.App-home
+{
+  background-color: black;
+}
+
+App-footer-link {
+  display: inline-flex;
+  position: absolute;
+}
+
+footer {
+  background-color: grey;
+  height: 25vmin;
 }
