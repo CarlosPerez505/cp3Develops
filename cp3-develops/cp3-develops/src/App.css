@@ -1,5 +1,6 @@
 .App {
-  background-image: url("alienThrone.jpeg");
+  background-color: black;
+  background-image: linear-gradient(to bottom, #0a0a0a 50%, #b20000);
   background-size: cover;
   color: #0a0a0a;
   text-align: center;
@@ -24,7 +25,8 @@
   justify-content: center;
   display: grid;
   color: red;
-  background-color: black;
+  background-color: transparent;
+  margin: 2rem;
 
 }
 
@@ -35,12 +37,25 @@
 
 
 .App-nav {
+  color: darkred;
+  height: 25vmin;
   background-color: darkred;
   align-content: center;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
 
+.App-title {
+  margin-left: 5rem;
+  position: relative;
+}
+
+.Nav-logo {
+  margin-left: 2rem;
+  position: absolute;
+  background-color: black;
+  height: 10vmin;
 }
 
 .App-ul {
@@ -52,14 +67,14 @@
 }
 
 .App-ul-a {
-  display:;
+  display: flex;
   justify-content: center;
 
 
 }
 
 .App-link {
-  color: #0a0a0a;
+  color: #f50707;
 }
 
 @keyframes App-logo-spin {
@@ -72,13 +87,15 @@
 }
 
 .App-gabby {
-  background-color: black;
+  background-color: red;
   align-text: center;
   display: inline-grid;
   height: 50vmin;
 }
 
-
+p {
+  color: red;
+}
 
 
 a {
@@ -88,15 +105,10 @@ a {
 
 h1 {
   color: #f50707;
-  background-color: grey;
+  background-color: transparent;
 }
 
 
-
-a{
-  display: inline-grid;
-  padding: 1rem;
-}
 
 
 .App-mel {
@@ -104,22 +116,33 @@ a{
 }
 
 .App-welcome {
-  background-color: black;
-  color: white;
+  background-color: transparent;
+  color: red;
   text-align: center;
 }
 
 .App-home
 {
-  background-color: black;
+  background-color: transparent;
 }
 
 App-footer-link {
+  color: red;
   display: inline-flex;
   position: absolute;
 }
 
 footer {
+
   background-color: grey;
-  height: 25vmin;
+  display: flex;
+
+
+}
+
+.App-footer-row {
+  background-color: darkred;
+  display: inline-block;
+  align-items: center;
+  align-content: center;
 }
