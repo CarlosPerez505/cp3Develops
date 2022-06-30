@@ -134,14 +134,14 @@ App-footer-link {
 
 footer {
 
-  background-color: grey;
+  background-color: saddlebrown;
   display: flex;
 
 
 }
 
 .App-footer-row {
-  background-color: darkred;
+  background-color: saddlebrown;
   display: inline-block;
   align-items: center;
   align-content: center;
