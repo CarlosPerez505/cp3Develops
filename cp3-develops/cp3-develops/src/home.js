@@ -1,5 +1,5 @@
 import Redpalm from "./bloodyHandPrint.svg";
-
+import Southwest from "./southWest.jpeg";
 
 const Home = () => {
     return (
@@ -27,7 +27,7 @@ const Home = () => {
             sleuth's (you) advantage. So tear that data apart, examine it, and you just might find <br/>
             something someone missed. Good luck and thank you for your interest. <br/>
         </p>
-
+        <img src={Southwest} alt="Southwest"  className="Southwest"/>
     </home>
 
     )

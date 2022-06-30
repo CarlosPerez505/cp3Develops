@@ -18,6 +18,8 @@
 
 .Graph {
   height: 50vmin;
+  border-radius: 30px;
+  box-shadow: 10px 5px 5px orange;
 
 }
 
@@ -91,6 +93,8 @@
   align-text: center;
   display: inline-grid;
   height: 50vmin;
+  border-radius: 30px;
+  box-shadow: 10px 5px 5px orange;
 }
 
 p {
@@ -109,21 +113,32 @@ h1 {
 }
 
 
+.Southwest {
+  height: 50vmin;
+  border-radius: 30px;
+  box-shadow: 10px 5px 5px orange;
+
+}
+
 
 
 .App-mel {
   height: 75vmin;
+  border-radius: 30px;
+  box-shadow: 10px 5px 5px orange;
 }
 
 .App-welcome {
   background-color: transparent;
   color: red;
   text-align: center;
+  border-radius: 30px;
 }
 
 .App-home
 {
   background-color: transparent;
+  border-radius: 30px;
 }
 
 App-footer-link {
