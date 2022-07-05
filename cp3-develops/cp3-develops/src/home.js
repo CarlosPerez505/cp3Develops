@@ -1,5 +1,7 @@
 import Redpalm from "./bloodyHandPrint.svg";
 import Southwest from "./southWest.jpeg";
+import Button1 from "./components/Button";
+import Button2 from "./components/Button2";
 
 const Home = () => {
     return (
@@ -28,6 +30,8 @@ const Home = () => {
             something someone missed. Good luck and thank you for your interest. <br/>
         </p>
         <img src={Southwest} alt="Southwest"  className="Southwest"/>
+        <Button1/>
+        <Button2/>
     </home>
 
     )

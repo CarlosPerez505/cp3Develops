@@ -24,8 +24,6 @@ function App() {
             <Home/>
             <EagleAvatar/>
             <Melanie/>
-            <Button1/>
-            <Button2/>
             <Footer/>
         </>
 
