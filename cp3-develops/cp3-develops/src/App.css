@@ -1,0 +1,179 @@
+.App {
+  background-color: black;
+  background-image: linear-gradient(to bottom, #0a0a0a 50%, #b20000);
+  background-size: cover;
+  color: #0a0a0a;
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 75vmin;
+  pointer-events: none;
+}
+
+.App-eagle {
+  height: 75vmin;
+  pointer-events: none;
+  border-radius: 30px;
+  box-shadow: 10px 5px 5px orange;
+}
+
+.Graph {
+  height: 50vmin;
+  border-radius: 30px;
+  box-shadow: 10px 5px 5px orange;
+
+}
+
+.App-graph-p{
+  justify-content: center;
+  display: grid;
+  color: red;
+  background-color: transparent;
+  margin: 2rem;
+
+}
+
+.App-graph-a {
+
+}
+
+
+
+.App-nav {
+  color: darkred;
+  height: 25vmin;
+  background-color: darkred;
+  position: sticky;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  display: inline-grid;
+
+}
+
+.App-li-a {
+  display: inline-flex;
+}
+
+.App-title {
+  margin-left: 5rem;
+  position: relative;
+}
+
+.Nav-logo {
+  margin-left: 2rem;
+  position: absolute;
+  background-color: black;
+  height: 10vmin;
+}
+
+.App-ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.App-ul-a {
+  display: inline-grid;
+  justify-content: center;
+
+
+}
+
+.App-link {
+  color: #f50707;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(45deg);
+  }
+}
+
+.App-gabby {
+  background-color: red;
+  align-text: center;
+  display: inline-grid;
+  height: 50vmin;
+  border-radius: 30px;
+  box-shadow: 10px 5px 5px orange;
+}
+
+p {
+  color: red;
+}
+
+
+a {
+  margin: 2rem;
+}
+
+
+h1 {
+  color: #f50707;
+  background-color: transparent;
+}
+
+
+.Southwest {
+  height: 50vmin;
+  border-radius: 30px;
+  box-shadow: 10px 5px 5px orange;
+
+}
+
+
+
+.App-mel {
+  height: 75vmin;
+  border-radius: 30px;
+  box-shadow: 10px 5px 5px orange;
+}
+
+.Button-one {
+  position: absolute;
+  margin: 2rem;
+
+}
+
+.App-welcome {
+  background-color: transparent;
+  color: red;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.App-home
+{
+  background-color: transparent;
+  border-radius: 30px;
+}
+
+App-footer-link {
+  color: red;
+  display: inline-grid;
+  position: absolute;
+}
+
+footer {
+
+  background-color: saddlebrown;
+  display: inline-flex;
+
+
+}
+
+.App-footer-row {
+  width: 100vmin;
+  background-color: saddlebrown;
+  display: inline-grid;
+  align-items: center;
+  align-content: center;
+}

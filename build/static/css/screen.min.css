@@ -595,7 +595,7 @@ a:hover {
   min-width: 100%;
   min-height: 100%;
   z-index: 0;
-  background: url(../images/cbr.jpeg) center 0 no-repeat;
+  background: url(../../../dev/images/cbr.jpeg) center 0 no-repeat;
   background-attachment: fixed;
   background-size: cover
 }
@@ -609,7 +609,7 @@ a:hover {
   background-color: rgba(44, 62, 80, .3);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000, endColorstr=#4C000000);
   zoom: 1;
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC);
+  background-image: url(data:image/);
   background-repeat: repeat;
   background-attachment: fixed
 }
@@ -1249,11 +1249,17 @@ a:hover {
   width: 100%;
   height: 800px;
   overflow: hidden;
+<<<<<<< HEAD
   background-image: url(../images/github.png);
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
   margin-bottom: -10px;
+=======
+  background-image: url(../../../cp3-develops/src/github.png);
+  background-position: top center;
+  background-size: cover
+>>>>>>> 6b6ce04c0b57c0747fdc226da7d284a703ebfe19
 }
 
 #gmap:before {
