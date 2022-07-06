@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;hostKeyVerifier&quot;:{&quot;stringHostKeyChecking&quot;:&quot;ASK&quot;},&quot;serverAliveInterval&quot;:300}" host="cp3develops.com" id="2e8067db-e793-4077-8a7c-590b9f165867" port="22" nameFormat="DESCRIPTIVE" username="cperez123" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>
