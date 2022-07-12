@@ -1,21 +1,22 @@
 import Redpalm from "./bloodyHandPrint.svg";
 
+
 const NavBar = () => {
     return (
-       <nav className="App-nav">
-           <a href="/" className="App-title">Redpalm</a>
-           <img src={Redpalm} alt="logo" className="Nav-logo"/>
-           <>
-               <row className="Nav-row">
-                   <a href="/welcome" className="App-li-a">Welcome</a>
+        <header className="App-nav">
+            <img src={Redpalm} alt="logo" className="Nav-logo"/>
+            <h1 className="App-header">
+                Menu
+            </h1>
+            <nav className="Nav-row">
+                <a href="/#" className="App-li-a">Welcome</a>
 
-                   <a href="/home" className="App-li-a">Home</a>
+                <a href="/#" className="App-li-a">Home</a>
 
-                   <a href="/footer" className="App-li-a">Footer</a>
-               </row>
+                <a href="/#" className="App-li-a">Footer</a>
 
-           </>
-       </nav>
+            </nav>
+        </header>
 
     )
 

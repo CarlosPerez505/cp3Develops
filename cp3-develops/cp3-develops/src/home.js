@@ -30,8 +30,6 @@ const Home = () => {
             something someone missed. Good luck and thank you for your interest. <br/>
         </p>
         <img src={Southwest} alt="Southwest"  className="Southwest"/>
-        <Button1/>
-        <Button2/>
     </home>
 
     )

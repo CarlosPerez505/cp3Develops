@@ -8,6 +8,7 @@
 }
 
 .App-logo {
+  padding: 3rem;
   height: 75vmin;
   pointer-events: none;
 }
@@ -43,13 +44,12 @@
 
 .App-nav {
   color: darkred;
-  height: 25vmin;
   background-color: darkred;
   position: sticky;
   align-content: center;
   align-items: center;
   margin-bottom: 2rem;
-  display: inline-grid;
+  display: inline-flex;
 
 }
 
@@ -58,27 +58,32 @@
 }
 
 .App-title {
-  margin-left: 5rem;
-  position: relative;
+  display: inline-flex;
 }
 
 .Nav-logo {
-  margin-left: 2rem;
-  position: absolute;
+  padding: 1rem;
   background-color: black;
   height: 10vmin;
 }
+
+
+.App-header{
+  color: black;
+  margin-left: 2rem;
+}
+
 
 .App-ul {
   padding: 0;
   margin: 0;
   list-style: none;
-  display: flex;
+  display: inline-flex;
   gap: 1rem;
 }
 
 .App-ul-a {
-  display: inline-grid;
+  display: inline-flex;
   justify-content: center;
 
 
@@ -135,10 +140,11 @@ h1 {
   height: 75vmin;
   border-radius: 30px;
   box-shadow: 10px 5px 5px orange;
+  display: inline-grid;
 }
 
 .Button-one {
-  position: absolute;
+
   margin: 2rem;
 
 }
@@ -158,22 +164,29 @@ h1 {
 
 App-footer-link {
   color: red;
-  display: inline-grid;
+  display: inline-flex;
   position: absolute;
 }
 
 footer {
 
   background-color: saddlebrown;
-  display: inline-flex;
-
+  display: inline-grid;
 
 }
 
 .App-footer-row {
-  width: 100vmin;
   background-color: saddlebrown;
-  display: inline-grid;
   align-items: center;
   align-content: center;
+}
+
+.H1 {
+
+}
+
+.Task-force {
+
+  align-content: center;
+  display: inline-flex;
 }
