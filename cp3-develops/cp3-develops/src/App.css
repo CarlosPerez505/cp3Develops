@@ -1,15 +1,15 @@
+
 .App {
-  background-color: black;
+
   background-image: linear-gradient(to bottom, #0a0a0a 50%, #b20000);
   background-size: cover;
-  color: #0a0a0a;
   text-align: center;
 
 }
 
 .App-logo {
   padding: 3rem;
-  height: 75vmin;
+  height: 50vmin;
   pointer-events: none;
 }
 
@@ -21,6 +21,7 @@
 }
 
 .Graph {
+  margin-top: 5rem;
   height: 50vmin;
   border-radius: 30px;
   box-shadow: 10px 5px 5px orange;
@@ -34,6 +35,7 @@
   background-color: transparent;
   margin: 2rem;
 
+
 }
 
 .App-graph-a {
@@ -43,13 +45,7 @@
 
 
 .App-nav {
-  color: darkred;
-  background-color: darkred;
-  position: sticky;
-  align-content: center;
-  align-items: center;
-  margin-bottom: 2rem;
-  display: inline-flex;
+  background-color: saddlebrown;
 
 }
 
@@ -58,48 +54,28 @@
 }
 
 .App-title {
-  display: inline-flex;
+
 }
 
 .Nav-logo {
-  padding: 1rem;
+
   background-color: black;
-  height: 10vmin;
+  height: 15vmin;
 }
 
 
 .App-header{
-  color: black;
-  margin-left: 2rem;
+  background-color: saddlebrown;
+  color: blue;
+  margin-top: 0rem;
+  margin-right: 20rem;
 }
 
 
-.App-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: inline-flex;
-  gap: 1rem;
-}
 
-.App-ul-a {
-  display: inline-flex;
-  justify-content: center;
-
-
-}
 
 .App-link {
   color: #f50707;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(45deg);
-  }
 }
 
 .App-gabby {
@@ -171,18 +147,19 @@ App-footer-link {
 footer {
 
   background-color: saddlebrown;
-  display: inline-grid;
+
 
 }
 
 .App-footer-row {
-  background-color: saddlebrown;
+
   align-items: center;
   align-content: center;
+  margin: 0;
 }
 
-.H1 {
-
+h2 {
+  margin-bottom: 0;
 }
 
 .Task-force {

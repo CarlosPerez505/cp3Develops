@@ -16,7 +16,8 @@ function App() {
 
     <div className="App">
 
-        <>
+
+
             <NavBar/>
             <Graph/>
             <Gabby/>
@@ -25,7 +26,7 @@ function App() {
             <EagleAvatar/>
             <Melanie/>
             <Footer/>
-        </>
+
 
     </div>
   );
