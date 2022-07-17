@@ -2,6 +2,7 @@ import Redpalm from "./bloodyHandPrint.svg";
 import Southwest from "./southWest.jpeg";
 import Button1 from "./components/Button";
 import Button2 from "./components/Button2";
+import Tribe from "./tribeMap.png";
 
 const Home = () => {
     return (
@@ -29,7 +30,8 @@ const Home = () => {
             sleuth's (you) advantage. So tear that data apart, examine it, and you just might find <br/>
             something someone missed. Good luck and thank you for your interest. <br/>
         </p>
-        <img src={Southwest} alt="Southwest"  className="Southwest"/>
+        <img src={Southwest} alt="Southwest"  className="Southwest"/><br/>
+        <img src={Tribe} alt="Southwest"  className="Tribe"/>
     </home>
 
     )

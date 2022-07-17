@@ -11,11 +11,11 @@ const NavBar = () => {
             </h1>
             <nav className="Nav-row">
 
-                <a href="/#" className="App-li-a">Welcome</a>
-                <a href="/#" className="App-li-a">Home</a>
-                <a href="/#" className="App-li-a">Home</a>
-                <a href="/#" className="App-li-a">Home</a>
-                <a href="/#" className="App-li-a">Footer</a>
+                <button className="Nav-btn"><a href="/#" className="App-li-a"><h2><b>Welcome</b></h2></a></button>
+                <button className="Nav-btn"><a href="/#" className="App-li-a">Home</a></button>
+                <button className="Nav-btn"><a href="/#" className="App-li-a">Home</a></button>
+                <button className="Nav-btn"><a href="/#" className="App-li-a">Home</a></button>
+                <button className="Nav-btn"><a href="/#" className="App-li-a">Footer</a></button>
 
             </nav>
         </header>
